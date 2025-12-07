@@ -75,8 +75,8 @@ div a.active {
 @media(max-witdh:995px) {
     div {
         position: absolute;
-        display: none   ;
-        top: 100%;
+        display: none;
+        top: 0;
         right: 0;
         width: 40%;
         border-left: 3px solid #b74b4b;
@@ -230,46 +230,54 @@ span {
 
 
 @keyframes words {
-    0%, 20% {
+
+    0%,
+    20% {
         content: "web developer";
     }
 
-    21%, 40% {
+    21%,
+    40% {
         content: "software developer";
     }
 
-    41%, 60% {
+    41%,
+    60% {
         content: "web desing"
     }
-    61%,80%{
+
+    61%,
+    80% {
         content: "Padel Coach";
     }
-    81%,100%{
+
+    81%,
+    100% {
         content: "script writer ";
     }
 
 }
 
 
-@media(max-width:1000px){
-    .home{
+@media(max-width:1000px) {
+    .home {
         gap: 4rem;
 
     }
 }
 
-@media (max-width:995px){
-    .home{
+@media (max-width:995px) {
+    .home {
         flex-direction: column;
         margin: 5rem 4rem;
     }
 
-    .home .home-content h3{
+    .home .home-content h3 {
         font-size: 2.5rem;
     }
-    .home-content h1{
+
+    .home-content h1 {
         font-size: 5rem;
     }
 
 }
-
