@@ -59,6 +59,7 @@ div a {
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
+    display: none;
 
 }
 
@@ -97,6 +98,7 @@ div a.active {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+
     }
 
     div a:hover,
