@@ -194,8 +194,9 @@ section {
 
 /* ROTATING WORDS */
 @keyframes words {
-    0%, 33% { content: "Software Developer"; }
-    34%, 66%  { content: "Padel Coach"; }
+    0%, 25% { content: "Software Developer"; }
+    34%, 66%  { content: "Student"; }
+    66%,100% {content: "Padel Coach";}
 }
 
 .home-content p {
