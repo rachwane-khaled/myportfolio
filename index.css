@@ -97,6 +97,7 @@ header {
     font-weight: 400;
     padding-bottom: 0.4rem;
     transition: 0.25s ease;
+    display: none;
 }
 
 /* thin underline */
